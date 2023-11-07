@@ -1,0 +1,59 @@
+.main-header {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.header-logo .header-image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.main-header .header-logo .header-text {
+    background-color: #fff;
+    border: 9px solid black;
+    text-align: center;
+    font-size: 30px;
+    padding: 1.5rem 2rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header-text .logo-span,
+.header-text .sub-logo-span{
+    color: #c82113;
+    text-transform: uppercase;
+}
+
+.sub-logo-span {
+    padding: 0.3rem;
+    background-color: #000;
+}
+
+.main-nav {
+    background-color: #000;
+}
+
+.main-nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.main-nav ul li {
+    list-style-type: none;
+}
+
+.main-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem;
+    font-size: 18px;
+}
+
+.main-nav ul li:last-of-type a {
+    color: #1085df;
+}

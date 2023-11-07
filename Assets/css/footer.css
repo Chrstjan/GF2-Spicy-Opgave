@@ -1,0 +1,41 @@
+.main-footer {
+    background-color: #333;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.contact-spicy header,
+.google-maps h2 {
+    color: #1085df;
+}
+
+.contact-spicy {
+    color: #fff;
+    padding-left: 1rem;
+}
+
+.contact-spicy .contact-text p:nth-child(1n + 4){
+    color: #1085df;
+}
+
+.footer-span {
+    color: #c82113;
+    text-transform: uppercase;
+}
+
+.soMe-images {
+    padding-top: 2rem;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.contact-spicy .soMe-images img {
+    width: 5vw;
+    cursor: pointer;
+}
+
+.google-maps iframe {
+    height: 300px;
+}

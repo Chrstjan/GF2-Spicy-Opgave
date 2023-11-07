@@ -2,3 +2,22 @@
 @import url(main-content.css);
 @import url(footer.css);
 @import url(animations.css);
+
+/* Bebas Neue Font */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* Sofia Sans Condensed */
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+p {
+    font-family: "Sofia Sans Condensed", sans-serif;
+}

@@ -1,0 +1,85 @@
+.about-spicy .about-header {
+    padding-left: 1.2rem;
+}
+
+.about-spicy .about-articles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.about-article header {
+    color: #000;
+}
+
+.about-article {
+    width: max-content;
+}
+
+.about-article .article-text {
+    color: #333;
+}
+
+.about-article .article-footer {
+    text-align: right;
+}
+
+.about-article .article-footer a {
+    text-decoration: none;
+    color: #000;
+}
+
+.spicy-gallery header,
+.favorite-section header {
+    color: #c82113;
+    padding-left: 1.2rem;
+}
+
+.gallery-row img {
+    width: 30vw;
+}
+
+
+.spicy-gallery .gallery-rows {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.gallery-rows .gallery-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.favorite-section header {
+    padding-left: 1.2rem;
+}
+
+.favorite-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.favorite-images {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.gallery-right {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+}
+
+.gallery-left img {
+    width: 50vw;
+}
+
+.gallery-right img {
+    width: 23vw;
+}
