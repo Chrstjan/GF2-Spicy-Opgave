@@ -57,3 +57,21 @@
 .main-nav ul li:last-of-type a {
     color: #1085df;
 }
+
+/* Media Queries */
+/* Mobile under 400 px */
+@media (max-width: 500px) {
+   .main-header {
+    position: relative;
+   }
+
+   .main-header .header-logo .header-text {
+    position: absolute;
+    top: 20%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0;
+    font-size: medium;
+   }
+}

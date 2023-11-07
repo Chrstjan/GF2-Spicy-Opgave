@@ -83,3 +83,17 @@
 .gallery-right img {
     width: 23vw;
 }
+
+/* Media Queries */
+/* Mobile under 500 px */
+@media (max-width: 500px) {
+   .about-spicy .about-articles {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    .about-article {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
