@@ -1,2 +1,1 @@
-# Html-Boilerplate
-A Html Boilerplate
+Spicy Opgave
