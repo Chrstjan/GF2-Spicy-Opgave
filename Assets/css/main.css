@@ -14,7 +14,8 @@ body {
     padding: 0;
 }
 
-h1, h2 {
+h1, h2,
+.main-nav a {
     font-family: "Bebas Neue", sans-serif;
 }
 
